@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import Loading from "../../components/Loading";
 import { useGetBookByIdQuery } from "../../services/googleBooksAPI";
-import BookDetailedCard from "./BookDetailedCard";
+import BookDetailedCard from "./bookCard/BookDetailedCard";
 
 function BookDetails() {
   const { bookId } = useParams();

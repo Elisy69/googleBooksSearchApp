@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
-import { loadMoreBooks } from "../../features/googleBooks/queryParamsSlice";
-import { Book } from "../../types/book";
+import { loadMoreBooks } from "../../../features/googleBooks/queryParamsSlice";
+import { Book } from "../../../types/book";
 import BookCard from "./BookCard";
 
 interface BookListProps {

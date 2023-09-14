@@ -1,8 +1,8 @@
 import Lottie from "lottie-react";
 import { useGetSearchResultsQuery } from "../../services/googleBooksAPI";
 import { useAppSelector } from "../../store/hooks";
-import BookList from "./BookList";
-import booksAnimation from "/Users/strashevskyelisey/Desktop/coding/Projects/googleBooksSearchApp/public/animation_lmj2227o.json";
+import BookList from "./books/BookList";
+import booksAnimation from "/public/animation_lmj2227o.json";
 
 function SearchResults() {
   const queryParams = useAppSelector((state) => state.queryParams);
