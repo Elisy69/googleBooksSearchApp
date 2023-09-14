@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav
       style={{
-        backgroundImage: `url("public/books.png")`,
+        backgroundImage: `url("/books.png")`,
       }}
       className="bg-cover w-full h-[20%] text-white shadow-md drop-shadow-xl"
     >

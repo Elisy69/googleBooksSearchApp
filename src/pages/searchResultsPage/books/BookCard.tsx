@@ -34,7 +34,7 @@ const BookCard = memo(function BookCard({
             />
           ) : (
             <LazyLoadImage
-              src="public/default_book_cover_2015.jpeg"
+              src="/default_book_cover_2015.jpeg"
               alt="book cover"
               className="object-cover w-[9rem] h-[14rem]"
             />

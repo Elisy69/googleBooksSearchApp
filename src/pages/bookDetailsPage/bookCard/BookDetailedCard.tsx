@@ -32,7 +32,7 @@ function BookDetailedCard({ bookData }: BookDetailedCardProps) {
               />
             ) : (
               <img
-                src="/public/default_book_cover_2015.jpeg"
+                src="/default_book_cover_2015.jpeg"
                 alt="default image"
                 className="w-[13rem] h-[20rem]"
               />
@@ -61,7 +61,11 @@ function BookDetailedCard({ bookData }: BookDetailedCardProps) {
             })}
         </h2>
         <p className="border border-gray-300 p-4 mt-4">
-          {bookData.description && removeTags(bookData.description)}
+          {bookData.description ? (
+            removeTags(bookData.description)
+          ) : (
+            <div>No description available</div>
+          )}
         </p>
       </div>
     </div>
