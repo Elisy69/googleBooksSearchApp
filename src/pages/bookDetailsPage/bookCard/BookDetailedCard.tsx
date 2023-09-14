@@ -20,7 +20,7 @@ function removeTags(str: string) {
 
 function BookDetailedCard({ bookData }: BookDetailedCardProps) {
   return (
-    <div className="flex flex-col md:flex-row h-full">
+    <div className="flex flex-col md:flex-row h-full w-full">
       <div className="flex items-center justify-center md:w-1/3 w-full md:h-full">
         <div className="bg-stone-200 w-full md:h-full md:py-0 py-10 flex justify-center items-center">
           <div className="drop-shadow-xl shadow-xl">
