@@ -1,4 +1,3 @@
-import { nanoid } from "nanoid";
 import { useDispatch } from "react-redux";
 import { loadMoreBooks } from "../../features/googleBooks/queryParamsSlice";
 import { Book } from "../../types/book";
