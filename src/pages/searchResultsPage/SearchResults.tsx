@@ -2,6 +2,8 @@ import Lottie from "lottie-react";
 import { useGetSearchResultsQuery } from "../../services/googleBooksAPI";
 import { useAppSelector } from "../../store/hooks";
 import BookList from "./books/BookList";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import booksAnimation from "/public/animation_lmj2227o.json";
 
 function SearchResults() {
